@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>彩虹</title>
+    <style>
+      /* 清除默认样式 */
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: rgb(211, 211, 211);
+      }
+      .rainbow {
+        height: 200px;
+        overflow: hidden;
+      }
+      .rainbow div {
+        overflow: hidden;
+      }
+      .rainbow > div {
+        width: 400px;
+        height: 400px;
+        background: rgb(228, 10, 10);
+        border-radius: 50%;
+      }
+      .rainbow > div > div {
+        width: 380px;
+        height: 380px;
+        margin: 10px;
+        background: rgb(241, 92, 32);
+        border-radius: 50%;
+      }
+      .rainbow > div > div > div {
+        width: 360px;
+        height: 360px;
+        margin: 10px;
+        background: rgb(220, 241, 32);
+        border-radius: 50%;
+      }
+      .rainbow > div > div > div > div {
+        width: 340px;
+        height: 340px;
+        margin: 10px;
+        background: rgb(32, 241, 77);
+        border-radius: 50%;
+      }
+      .rainbow > div > div > div > div > div {
+        width: 320px;
+        height: 320px;
+        margin: 10px;
+        background: rgb(32, 192, 241);
+        border-radius: 50%;
+      }
+      .rainbow > div > div > div > div > div > div {
+        width: 300px;
+        height: 300px;
+        margin: 10px;
+        background: rgb(140, 32, 241);
+        border-radius: 50%;
+      }
+      .rainbow > div > div > div > div > div > div > div {
+        width: 280px;
+        height: 280px;
+        margin: 10px;
+        background: rgb(206, 32, 241);
+        border-radius: 50%;
+      }
+      .rainbow > div > div > div > div > div > div > div > div {
+        width: 260px;
+        height: 260px;
+        margin: 10px;
+        background: rgb(211, 211, 211);
+        border-radius: 50%;
+      }
+      .cloud ul li {
+        display: block;
+        border-radius: 60%;
+        background-color: rgba(255, 255, 255);
+        height: 40px;
+        width: 80px;
+        float: left;
+        margin-left: 10px;
+      }
+      .cloud ul li:nth-child(2) {
+        margin-top: -40px;
+        margin-left: -20px;
+      }
+      .cloud ul li:nth-child(3) {
+        margin-left: -40px;
+        margin-top: -10px;
+        height: 30px;
+        width: 60px;
+        background-color: rgba(255, 255, 255, 0.8);
+      }
+      .cloud ul li:nth-child(4) {
+        margin-left: -30px;
+        margin-top: -100px;
+        height: 30px;
+        width: 80px;
+        background-color: rgba(255, 255, 255, 0.8);
+      }
+      .cloud ul li:nth-child(5) {
+        margin-left: 150px;
+        margin-top: -100px;
+        height: 20px;
+        width: 40px;
+        background-color: rgba(255, 255, 255, 0.6);
+      }
+      .cloud ul li:nth-child(6) {
+        margin-left: -50px;
+        margin-top: 10px;
+        height: 40px;
+        width: 100px;
+        background-color: rgba(255, 255, 255, 0.9);
+      }
+      .cloud ul li:nth-child(7) {
+        margin-left: -40px;
+        margin-top: 13px;
+        height: 40px;
+        width: 90px;
+        background-color: rgba(255, 255, 255, 0.7);
+      }
+      .cloud ul li:nth-child(8) {
+        margin-left: -35px;
+        margin-top: 8px;
+        height: 40px;
+        width: 120px;
+        background-color: rgba(255, 255, 255, 0.8);
+      }
+      .cloud {
+        position: relative;
+        margin-top: -30px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="rainbow">
+      <div>
+        <div>
+          <div>
+            <div>
+              <div>
+                <div>
+                  <div>
+                    <div></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="cloud">
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+  </body>
+</html>
